@@ -1,2 +1,15 @@
-# digdns
-This Module is to perform dns related operations to recon about a specific site.
+Dependencies
+----
+Digdns requires `Python 3` to work at its best. 
+
+Requirements:
+----
+
+**requests**<>;
+**tqdm**<>;
+**dnspython**<>
+
+Usage :
+----
+
+**python3 digdns.py** **<domain name here**>

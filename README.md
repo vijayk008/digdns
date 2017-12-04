@@ -4,10 +4,9 @@ Digdns requires `Python 3` to work at its best.
 
 Requirements:
 ----
-
-**requests**<>;
-**tqdm**<>;
-**dnspython**<>
+`requests `
+`tqdm `
+`dnspython `
 
 Usage :
 ----

@@ -28,7 +28,6 @@ class Dns:
 
     """
     This method is used to find the dns servers of a domain
-    @:param domain name
     @:return Returns a list of nameservers
     """
     def _dnsenum(self):
@@ -54,9 +53,7 @@ class Dns:
         return self._shared_domains
 
     """
-    This method will scan for the subdomain
-    @:param Type of the scanning.
-    @:param Domain name    
+    This method will scan for the subdomain   
     @:return Returns a list of subdomains 
     """
     def _sub_domain_scanner(self):
